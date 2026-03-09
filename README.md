@@ -1,6 +1,6 @@
 # NAMU Landing Page
 
-[Live Demo](https://razor5000.github.io/Museum_landing_2/)
+[Live Demo](https://razor5000.github.io/Kickstarter/#header)
 
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -9,7 +9,7 @@
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 ## 📋 Описание проекта
-Адаптивный лендинг для национального художественного музея украины. В проекте реализована верстка по макету Figma, использованы современные подходы к стилизации и сборке.
+Адаптивный лендинг для стартапа. В проекте реализована верстка по макету Figma, использованы современные подходы к стилизации и сборке.
 
 <img src='src/images/preview.png' alt='превью проекта' width='400'>
 
@@ -21,7 +21,7 @@
 
 ## 🚀 Как запустить локально
 1. Клонировать репозиторий:
-   `https://github.com/razor5000/Museum_landing_2.git`
+   `https://github.com/razor5000/Kickstarter.git`
 2. Установить зависимости:
    `npm install`
 3. Запустить режим разработки:
