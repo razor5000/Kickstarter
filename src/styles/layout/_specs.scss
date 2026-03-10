@@ -1,5 +1,4 @@
 .specs {
-
   &__container {
     @include make-container;
 
@@ -22,37 +21,37 @@
   &__specs-card {
     display: none;
 
-      &--one {
+    &--one {
+      display: flex;
+
+      @include on-tablet {
+        grid-column: 1 / 5;
+        grid-row: 1;
+      }
+    }
+
+    &--two {
+      @include on-tablet {
         display: flex;
-
-        @include on-tablet {
-          grid-column: 1 / 5;
-          grid-row: 1;
-        }
+        grid-column: 5 / -1;
+        grid-row: 1;
       }
+    }
 
-      &--two {
-        @include on-tablet {
-          display: flex;
-          grid-column: 5 / -1;
-          grid-row: 1;
-        }
+    &--three {
+      @include on-tablet {
+        display: flex;
+        grid-column: 1 / 5;
+        grid-row: 2;
       }
+    }
 
-      &--three {
-        @include on-tablet {
-          display: flex;
-          grid-column: 1 / 5;
-          grid-row: 2;
-        }
+    &--four {
+      @include on-tablet {
+        display: flex;
+        grid-column: 5 / -1;
+        grid-row: 2;
       }
-
-      &--four {
-        @include on-tablet {
-          display: flex;
-          grid-column: 5 / -1;
-          grid-row: 2;
-        }
-      }
+    }
   }
 }

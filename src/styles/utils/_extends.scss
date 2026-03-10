@@ -5,7 +5,6 @@
   line-height: 52px;
   text-transform: uppercase;
 
-
   @include on-tablet {
     @include h1-tablet;
   }
@@ -22,7 +21,6 @@
   line-height: 1.2;
   text-transform: uppercase;
 
-
   @include on-tablet {
     @include h2-tablet;
   }
@@ -33,12 +31,11 @@
 }
 
 %h3 {
-font-family: Inter, sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 22px;
-text-transform: uppercase;
-
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
 
   @include on-tablet {
     @include h3-tablet;
@@ -70,7 +67,6 @@ text-transform: uppercase;
   font-weight: 700;
   line-height: 20px;
   text-transform: uppercase;
-
 }
 
 %h-btn {

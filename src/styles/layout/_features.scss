@@ -75,7 +75,7 @@
         display: block;
         grid-column: 7 / -1;
         grid-row: 1;
-        }
+      }
     }
 
     &--third {
@@ -113,12 +113,10 @@
   }
 
   &__slider {
-
     @include on-tablet {
       grid-column: 4 / -1;
       grid-row: 2 / 3;
       align-self: end;
-
     }
 
     @include on-desktop {
@@ -129,10 +127,8 @@
   }
 
   &__pagination {
-
     @include on-tablet {
       grid-column: 2 / 3;
-
     }
 
     @include on-desktop {
